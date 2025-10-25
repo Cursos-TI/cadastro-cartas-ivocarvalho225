@@ -16,6 +16,7 @@ int main() {
         int ptur,ptur2;
         float denspop,pibcap;        
         float denspop2,pibcap2;
+        float suppod1, suppord2;
 
         // Área para entrada de dados (carta 1)
 
@@ -95,6 +96,13 @@ int main() {
 
         pibcap2 = pib2 / pop2;
         printf("o Calculo do pib carta2 é: %f\n" , pibcap2);
+
+        //Comparação simples 
+        suppod1 = pib < pib2 ;
+        printf ("A comparação é: %f\n " , suppod1);
+
+        suppord2 = area > area2;
+        printf("A comparação 2 é: %f\n" , suppord2)
 
 
 
