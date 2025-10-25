@@ -14,6 +14,8 @@ int main() {
         float area,area2;
         float pib,pib2;
         int ptur,ptur2;
+        float denspop,pibcap;        
+        float denspop2,pibcap2;
 
         // Área para entrada de dados (carta 1)
 
@@ -79,6 +81,24 @@ int main() {
         printf("A área total da cidade é: %f\n" , area2);
         printf("O PIB da cidade é: %f\n" , pib2);
         printf("A quantidade de pontos turisticos são: %i\n" , ptur2);
+
+        // Área para exibição do calculo das variáveis carta (1)
+        denspop = pop / area;     
+        printf("O calculo da carta 1 é: %f\n" , denspop);
+
+        pibcap = pib / pop;
+        printf("O calculo do pip é: %f\n" ,pibcap);
+
+        // Área para exibição do calculo das variáveis carta (2)
+        denspop2 = pop2 / area2;
+        printf("O calculo da carta2 é: %f\n" , denspop2);
+
+        pibcap2 = pib2 / pop2;
+        printf("o Calculo do pib carta2 é: %f\n" , pibcap2);
+
+
+
+
 
 
 
