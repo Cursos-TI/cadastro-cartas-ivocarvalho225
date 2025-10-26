@@ -102,7 +102,17 @@ int main() {
         printf ("A comparação é: %f\n " , suppod1);
 
         suppord2 = area > area2;
-        printf("A comparação 2 é: %f\n" , suppord2)
+        printf("A comparação 2 é: %f\n" , suppord2);
+
+        //Estrutura condicional simples
+
+        if (pib > pib2){
+          printf("O jogador da carta 1 venceu a partida");
+        }
+        else{
+          printf("O Jogador da carta 2 venceu a partida");
+        }
+        
 
 
 
